@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Launch the training system -->
+    <node pkg="rl_mav_ros" name="qlearning" type="mav-qlearning.py" output="screen"/>
+</launch>

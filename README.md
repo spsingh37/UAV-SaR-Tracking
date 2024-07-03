@@ -68,6 +68,11 @@ catkin_make
 <img src="greedy-policy.gif">
 </p>
 
+### 🔍 YoloFLOW algorithm
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="assets/YoloFLOW.png">
+</div>
+
 ### 🛠️ Running Simulation
 1. Launch simulation of AR Drone in Gazebo : (forked from [Qlabs](https://github.com/pulver22/QLAB))
 ```
@@ -93,11 +98,6 @@ roslaunch tum_ardrone tum_ardrone.launch
 ```
 roslaunch rl_mav_ros start_qlearning.launch
 ```
-
-### 🔍 YoloFLOW algorithm
-<div style="width: 100%; text-align: center; margin:auto;">
-      <img style="width:100%" src="assets/YoloFLOW.png">
-</div>
 
 ### 📊 Results
 <div style="width: 100%; text-align: center; margin:auto;">

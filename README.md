@@ -2,6 +2,10 @@
 
 📄 Paper Link: https://ieeexplore.ieee.org/abstract/document/9292630 
 
+<div style="width: 100%; text-align: center; margin:auto;">
+      <img style="width:100%" src="assets/cover.png">
+</div>
+
 # 🤖 Autonomous UAV-based Target Search, Tracking and Following using Reinforcement Learning and YOLOFlow
 
 ROS Package to implement reinforcement learning algorithms for autonomous navigation of UAV in a Search-and-Rescue environment. A PID algorithm is employed for position control.
@@ -99,6 +103,9 @@ roslaunch rl_mav_ros start_qlearning.launch
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="assets/results.png">
 </div>
+
+## 🙏 Credits
+This project builds upon the good work done in the [openai_ros](https://wiki.ros.org/openai_ros), [gym-gazebo](https://github.com/erlerobot/gym-gazebo), and [QLAB](https://github.com/pulver22/QLAB). Many thanks to all the contributors involved.
 
 
 

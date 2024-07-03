@@ -4,7 +4,7 @@
 
 # 🤖 Autonomous UAV-based Target Search, Tracking and Following using Reinforcement Learning and YOLOFlow
 
-ROS Package to implement reinforcement learning aglorithms for autonomous navigation of UAV in a Search-and-Rescue environment. A PID algorithm is employed for position control.
+ROS Package to implement reinforcement learning algorithms for autonomous navigation of UAV in a Search-and-Rescue environment. A PID algorithm is employed for position control.
 
 ### 📦 Dependencies Installation
 - Prerequisites

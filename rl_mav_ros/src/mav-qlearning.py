@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print "Gym Make Done"
 
 
-    outdir = '/home/yug/catkin_ws/src/rl_mav_ros/outdir/qlearning'
+    outdir = '~/UAV_SaR_ws/quadrotor_ros/rl_mav_ros/outdir/qlearning'
     env = gym.wrappers.Monitor(env, outdir, force=True)
     print "Monitor Wrapper Started"
 

@@ -6,11 +6,11 @@
       <img style="width:100%" src="assets/cover.png">
 </div>
 
-# 🤖 Autonomous UAV-based Target Search, Tracking and Following using Reinforcement Learning and YOLOFlow
+## 🤖 Autonomous UAV-based Target Search, Tracking and Following using Reinforcement Learning and YOLOFlow
 
 ROS Package to implement reinforcement learning algorithms for autonomous navigation of UAV in a Search-and-Rescue environment. A PID algorithm is employed for position control.
 
-### 📦 Dependencies Installation
+## 📦 Dependencies Installation
 - Prerequisites
   * Ubuntu 16.04 
   * ROS Kinetic
@@ -53,7 +53,7 @@ cd ~/UAV_SaR_ws
 catkin_make
 ```
 
-### 🌐 RL Environment
+## 🌐 RL Environment
 - State: Discrete(X,Y Coordinate obtained from generic odometry sensor).
 - Action: Forward, Back, Left, Right.
 - Space: 10x10 grid space.
@@ -68,12 +68,12 @@ catkin_make
 <img src="greedy-policy.gif">
 </p>
 
-### 🔍 YoloFLOW algorithm
+## 🔍 YoloFLOW algorithm
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="assets/YoloFLOW.png">
 </div>
 
-### 🛠️ Running Simulation
+## 🛠️ Running Simulation
 1. Launch simulation of AR Drone in Gazebo : (forked from [Qlabs](https://github.com/pulver22/QLAB))
 ```
 roslaunch qlab_gazebo drone.launch
@@ -93,13 +93,13 @@ rosrun quadrotor_teleop_keyboard quadrotor_teleop_keyboard.py
 roslaunch tum_ardrone tum_ardrone.launch
 ```
 
-### 🏋️ Q-learning (Training)
+## 🏋️ Q-learning (Training)
 
 ```
 roslaunch rl_mav_ros start_qlearning.launch
 ```
 
-### 📊 Results
+## 📊 Results
 <div style="width: 100%; text-align: center; margin:auto;">
       <img style="width:100%" src="assets/results.png">
 </div>

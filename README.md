@@ -105,7 +105,8 @@ roslaunch rl_mav_ros start_qlearning.launch
 </div>
 
 ## 🙏 Credits
-This project builds upon the good work done in the [openai_ros](https://wiki.ros.org/openai_ros), [gym-gazebo](https://github.com/erlerobot/gym-gazebo), and [QLAB](https://github.com/pulver22/QLAB). Many thanks to all the contributors involved.
+This project builds upon the good work done in the [openai_ros](https://wiki.ros.org/openai_ros), [gym-gazebo](https://github.com/erlerobot/gym-gazebo), and [QLAB](https://github.com/pulver22/QLAB). Many thanks to all the contributors involved.<br>
+Special thanks to my project member, Yug Ajmera, for his invaluable contributions.
 
 
 
